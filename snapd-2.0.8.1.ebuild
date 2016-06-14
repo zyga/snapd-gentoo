@@ -9,7 +9,7 @@ EGO_SRC=github.com/snapcore/snapd/...
 DESCRIPTION="Service and tools for management of snap packages"
 HOMEPAGE="http://snapcraft.io/"
 
-EGIT_COMMIT="14ff9e23e48de107b34938a398a319bbb38730be"
+EGIT_COMMIT="3a332bd5a475dc651ea5d092f4c84ac06891b2c2"
 SRC_URI="https://github.com/snapcore/${PN}/archive/${EGIT_COMMIT}.tar.gz -> ${P}.tar.gz"
 inherit golang-vcs-snapshot
 inherit systemd
